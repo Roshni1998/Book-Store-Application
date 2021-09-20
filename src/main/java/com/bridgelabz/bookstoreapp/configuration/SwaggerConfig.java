@@ -1,3 +1,4 @@
+/* Swagger Configuration */
 package com.bridgelabz.bookstoreapp.configuration;
 
 import org.springframework.context.annotation.Bean;

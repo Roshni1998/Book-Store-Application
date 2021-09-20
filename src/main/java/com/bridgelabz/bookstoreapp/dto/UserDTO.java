@@ -1,23 +1,14 @@
+/* UserDTO.java */
 package com.bridgelabz.bookstoreapp.dto;
 
-import lombok.Getter;
 import java.time.LocalDate;
 
-@Getter
 public class UserDTO {
 
-    private int id;
-
-    private String firstName;
-    private String lastName;
-    //kyc
-    private LocalDate dob;
-    private LocalDate registeredDate;
-    private LocalDate updatedDate;
-    private String password;
-    private String emailId;
-    // Boolean Verify
-    // OTP
-
-
+    public String firstName;
+    public String lastName;
+    public String kyc;
+    public LocalDate dob;
+    public String emailId;
+    public String password;
 }
